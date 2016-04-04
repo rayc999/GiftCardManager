@@ -1,0 +1,17 @@
+﻿<div class="panel-body">
+    <h1>Gift Card Details</h1>
+    <div class="form-group">
+        <label class="">BarCode</label>
+        <input class="form-control" ng-model="currentGiftCard.BarCode"/>
+    </div>
+    <div class="form-group">
+        <label class="">Date Purchased</label>
+        <input class="form-control" ng-model="currentGiftCard.DatePurchased"/>
+    </div>
+    <div class="form-group">
+        <label class="">Comments</label>
+        <input class="form-control" ng-model="currentGiftCard.Comments"/>
+    </div>
+    <button class="btn btn-primary" ng-click="saveEdit(currentGiftCard)">Save</button>
+    <button class="btn btn-primary" ng-click="cancelEdit(currentGiftCard)">Cancel</button>
+</div>

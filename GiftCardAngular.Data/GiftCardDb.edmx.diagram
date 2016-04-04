@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="22509f1b6b30473793279d013aee9786" Name="Diagram1">
+        <EntityTypeShape EntityType="GiftCardModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiftCardModel.Department" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiftCardModel.GiftCard" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiftCardModel.Transaction" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiftCardModel.TransactionType" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiftCardModel.UserProfile" Width="1.5" PointX="5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiftCardModel.webpages_Membership" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiftCardModel.webpages_OAuthMembership" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GiftCardModel.webpages_Roles" Width="1.5" PointX="2.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="GiftCardModel.FK_dbo_Transaction_dbo_GiftCard_GiftCardId" ManuallyRouted="false" />
+        <AssociationConnector Association="GiftCardModel.FK_dbo_Transaction_dbo_TransactionType_TransactionTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="GiftCardModel.webpages_UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

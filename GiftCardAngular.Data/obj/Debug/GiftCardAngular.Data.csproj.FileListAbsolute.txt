@@ -1,0 +1,7 @@
+E:\Learn\AngularJS\GiftCardAngular\GiftCardAngular.Data\bin\Debug\GiftCardAngular.Data.dll.config
+E:\Learn\AngularJS\GiftCardAngular\GiftCardAngular.Data\bin\Debug\GiftCardAngular.Data.dll
+E:\Learn\AngularJS\GiftCardAngular\GiftCardAngular.Data\bin\Debug\GiftCardAngular.Data.pdb
+E:\Learn\AngularJS\GiftCardAngular\GiftCardAngular.Data\bin\Debug\EntityFramework.dll
+E:\Learn\AngularJS\GiftCardAngular\GiftCardAngular.Data\bin\Debug\EntityFramework.xml
+E:\Learn\AngularJS\GiftCardAngular\GiftCardAngular.Data\obj\Debug\GiftCardAngular.Data.dll
+E:\Learn\AngularJS\GiftCardAngular\GiftCardAngular.Data\obj\Debug\GiftCardAngular.Data.pdb

@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section scripts{
+    <script type="text/javascript">
+        angular.module("giftCardApp", []);
+    </script>
+}
+
+<div class="jumbotron">
+    <h2>
+        Gift Card Manager
+        <span class="label label-default" ng-class="warningLevel()" ng-hide="incompleteCount() == 0">{{giftCardCount()}} Gift cards</span>
+    </h2>
+    <p class="lead">Manager for gift cards and transactions.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <ng-include src="'@Url.Action("GiftCardsListPartial", "GiftCard")'" ng-show="displayMode == 'list'"></ng-include>
+        <ng-include src="'@Url.Action("GiftCardDetailsPartial", "GiftCard")'" ng-show="displayMode == 'edit'"></ng-include>
+    </div>
+</div>

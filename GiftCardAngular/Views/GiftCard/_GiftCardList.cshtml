@@ -1,0 +1,28 @@
+﻿<div class="panel">
+    <div class="input-group">
+        <input type="text" class="form-control" ng-model="actionText" placeholder="Enter bar code here"/>
+        <span class="input-group-btn"><button class="btn btn-default" ng-click="addNewItem(actionText)">Add</button></span>
+    </div>
+</div>
+<h2>Gift Cards</h2>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Bar Code</th>
+        <th>Purchase Date</th>
+        <th>Balance</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="item in data.items | orderBy:'BarCode'">
+        <td>{{item.BarCode}}</td>
+        <td>{{item.DatePurchased}}</td>
+        <td>{{item.Balance | currency}}</td>
+        <td><button class="btn btn-default" ng-click="editGiftCard(item)">Details</button></td>
+    </tr>
+    </tbody>
+</table>
+<div class="checkbox-inline">
+    <label><input type="checkbox" ng-model="showComplete"/>Show Complete</label>
+</div>
